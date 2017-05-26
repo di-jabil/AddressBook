@@ -14,6 +14,8 @@ local gIndex = 0
 function CBLoadList(mapargs) 
 	local data = {}
 	
+	-- this is a test
+	
 	table.sort(address_book, 
 			function(e1, e2)
     			return e1.last_name < e2.last_name
